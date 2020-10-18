@@ -13,6 +13,7 @@ trees_list = trees_dataset['spc_common'].dropna() # List of trees
 Boroughs = ['Brooklyn', 'Bronx', 'Manhattan', 'Queens', 'Staten Island'] # List of boroughs
 
 app = dash.Dash()
+server = app.server
 
 app.layout = html.Div([
     html.H1('Health of NYC Trees App'),
