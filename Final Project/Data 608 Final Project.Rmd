@@ -59,7 +59,7 @@ data %>%
   group_by(Major)
 ```
 
-The top 5 majors with the most employment are Business Management and Administration, General Business, Accounting, Nursing, and Psychology. However the top 5 majors with the most unemployment are Business Management and Administration, General Business, Psychology, Accounting, and Communications. Both are close slightly different but are close to the top majors with the most students.
+The top 5 majors with the most employment are Business Management and Administration, General Business, Accounting, Nursing, and Psychology. However the top 5 majors with the most unemployment are Business Management and Administration, General Business, Psychology, Accounting, and Communications. Both are slightly different but are close to the top majors with the most students.
 
 ```{r}
 data %>%
